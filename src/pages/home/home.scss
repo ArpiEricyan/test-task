@@ -1,0 +1,36 @@
+.home{
+  padding: 1rem 3rem;
+  select{
+    width: 140px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 4px 0px;
+
+  }
+  .items-button{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    button{
+      width: 140px;
+      height: 40px;
+      border: 1px solid green;
+      color:green;
+      cursor: pointer;
+      border-radius: 10px;
+      background-color: white;
+    }
+  }
+  .items{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and(max-width: 600px){
+  .home{
+    padding: 1rem 1rem;
+  }
+
+}

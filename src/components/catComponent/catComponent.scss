@@ -1,0 +1,25 @@
+.cat-item{
+  span{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    img{
+      width: 300px;
+      height: 200px;
+    }
+  }
+
+}
+
+
+@media screen and(max-width: 600px){
+  .cat-item{
+    span{
+      img{
+        width: 200px;
+        height: 100px;
+      }
+    }
+
+  }
+
+}
